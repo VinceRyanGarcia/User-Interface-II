@@ -1,6 +1,65 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
 *{
-    border:0px solid black;
+    border:1px solid black;
 } 
+h1{
+    font-size:2.5rem;
+}
+h2{
+    font-size:1.5rem;
+
+}
 nav{
     display:flex;
     width: 100%;
@@ -16,36 +75,40 @@ nav a{
     text-decoration:none;
 }
 body{
-    display:flex:
     height:1000px;
+}
+.toptext{
+    margin:0 auto;
+    width: 90%;
 }
 .photo{
     margin:0 auto;
-    width:100%;
+    width:90%;
+    height:40vh;
+    background-position:center;
     background:url(https://pbs.twimg.com/profile_banners/2223115627/1604986453/1500x500);
-    background-size:100% 100%;
-    background-position: center;
-    height:15vh;
+    
 }
 section{
     display:flex;
-    justify-content:space-evenly;
-    align-content:space-evenly;
-    width:100%;
+    justify-content:center;
+    align-items:center;
+    height:50vh;
     border:0px solid green;
-    height:16vh;
+    
 }
 .image{
     background:url(https://picsum.photos/150);
-    width:80%;
-    height:150px;
+    width:10vw;
+    height:45vh;
+    margin: 0 1vw;
 }
 .side{
     width:30wh;
     height:150px;
 }
 footer{
-    border-radius:10px;
+    background:black;
 }
 footer a{
     color:white;
