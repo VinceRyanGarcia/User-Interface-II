@@ -1,0 +1,54 @@
+*{
+    border:0px solid black;
+} 
+nav{
+    display:flex;
+    width: 100%;
+    height: 20%;
+    justify-content:center;
+    align-items:center;
+}
+nav a{
+    color:white;
+    background:red;
+    border:0px solid black;
+    margin:1px;
+    text-decoration:none;
+}
+body{
+    display:flex:
+    height:1000px;
+}
+.photo{
+    margin:0 auto;
+    width:100%;
+    background:url(https://pbs.twimg.com/profile_banners/2223115627/1604986453/1500x500);
+    background-size:100% 100%;
+    background-position: center;
+    height:15vh;
+}
+section{
+    display:flex;
+    justify-content:space-evenly;
+    align-content:space-evenly;
+    width:100%;
+    border:0px solid green;
+    height:16vh;
+}
+.image{
+    background:url(https://picsum.photos/150);
+    width:80%;
+    height:150px;
+}
+.side{
+    width:30wh;
+    height:150px;
+}
+footer{
+    border-radius:10px;
+}
+footer a{
+    color:white;
+    background:red;
+    text-decoration:none;
+}
